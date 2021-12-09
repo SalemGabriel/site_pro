@@ -33,7 +33,7 @@ $contact=yaml_parse($contact);
 		<a class="lien" href="#formation">formation</a>
 		<a class="lien" href="#contact">contact</a>
 	</nav>
-	salut
+	
 	<div id="accueil">
 		<?php echo nl2br($acceuil['acceuil']);?>
 	</div>
