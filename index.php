@@ -5,11 +5,11 @@ $acceuil=yaml_parse($acceuil);
 $propos=\file_get_contents("yaml/propos.yaml");
 $propos=yaml_parse($propos);
 
-$compétences=\file_get_contents("yaml/compétences.yaml");
-$compétences=yaml_parse($compétences);
+$competences=\file_get_contents("yaml/competences.yaml");
+$competences=yaml_parse($competences);
 
-$expériences=\file_get_contents("yaml/expériences.yaml");
-$expériences=yaml_parse($expériences);
+$experiences=\file_get_contents("yaml/experiences.yaml");
+$experiences=yaml_parse($experiences);
 
 $formation=\file_get_contents("yaml/formation.yaml");
 $formation=yaml_parse($formation);
@@ -25,6 +25,7 @@ $contact=yaml_parse($contact);
 	<link rel='stylesheet' href='style.css'>
 </head>
 <body>
+	<!--
 	<nav class="espaceheader">
 		<a class="lien" href="#accueil">accueil</a>
 		<a class="lien" href="#propos">à propos</a>
@@ -33,9 +34,11 @@ $contact=yaml_parse($contact);
 		<a class="lien" href="#formation">formation</a>
 		<a class="lien" href="#contact">contact</a>
 	</nav>
-	
+-->
+
+<?php include("PHP/menu.php"); ?>
 	<div id="accueil">
-		<?php echo $acceuil;?>
+		<?php echo nl2br($acceuil['acceuil']);?>
 	</div>
 
 	<div id="propos">
