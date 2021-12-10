@@ -1,10 +1,5 @@
 <?php
-include("PHP/accueil.php");
-include("PHP/propos.php");
-include("PHP/competences.php");
-include("PHP/experience.php");
-include("PHP/formation.php");
-include("PHP/contact.php");
+
 ?> 
 <!DOCTYPE html>
 <html>
@@ -28,27 +23,27 @@ include("PHP/contact.php");
 <?php include("PHP/menu.php"); ?>
 	
 	<div id="accueil">
-		<?php echo nl2br($acceuil['acceuil']);?>
+		<?php include("PHP/accueil.php");?>
 	</div>
 
 	<div id="propos">
-		<?php echo nl2br($propos['propos']);?>
+		<?php include("PHP/propos.php");?>
 	</div>
 
 	<div id="competences">
-		<?php echo nl2br($competence['competences']);?>
+		<?php include("PHP/competences.php");?>
 	</div>
 
 	<div id="experience">
-		<?php echo nl2br($experience['experience']);?>
+		<?php include("PHP/experience.php");?>
 	</div>
 
 	<div id="formation">
-		<?php echo nl2br($formation['formation']);?>
+		<?php include("PHP/formation.php");?>
 	</div>
 
 	<div id="contact">
-		<?php echo nl2br($contact['contact']);?>
+		<?php include("PHP/contact.php");?>
 	</div>
 
 </body>

@@ -23,86 +23,27 @@ nav{
 	word-spacing: 2px;
 	color: #FFFFFF;
 	font-weight: 700;
-	text-decoration: none solid;
-	font-style: normal;
-	font-variant: normal;
 	text-transform: uppercase;
 }
 
 .lien:hover{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 25px;
-	letter-spacing: 2px;
-	word-spacing: 2px;
-	color: #FFFFFF;
-	font-weight: 700;
-	font-style: normal;
-	font-variant: normal;
-	text-transform: uppercase;
 	display:overline block;
     border-top:6px solid white;
     padding-top:2px;
 }
 
 .lien:focus{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 25px;
-	letter-spacing: 2px;
-	word-spacing: 2px;
 	color: #80aaff;
 	font-weight: 900;
-	font-style: normal;
-	font-variant: normal;
-	text-transform: uppercase;
 	display:overline block;
     border-top:8px solid #80aaff;
     padding-top:2px;
 }
 
-#propos{
+section:not(:target){
 	display: none;
 }
 
-#propos:target{
-	display: block;
-}
-
-#accueil{
-	display: none;
-}
-
-#accueil:target{
-	display: block;
-}
-
-#compétences{
-	display: none;
-}
-
-#compétences:target{
-	display: block;
-}
-
-#expérience{
-	display: none;
-}
-
-#expérience:target{
-	display: block;
-}
-
-#formation{
-	display: none;
-}
-
-#formation:target{
-	display: block;
-}
-
-#contact{
-	display: none;
-}
-
-#contact:target{
+section:target{
 	display: block;
 }

@@ -1,3 +1,5 @@
 <?php
-$acceuil=yaml_parse_file("yaml/accueil.yaml");
+$data=yaml_parse_file("yaml/accueil.yaml");
+//print_r($acceuil);
+echo $data["accueil"];
 ?>
