@@ -37,6 +37,7 @@ $contact=yaml_parse($contact);
 -->
 
 <?php include("PHP/menu.php"); ?>
+	
 	<div id="accueil">
 		<?php echo nl2br($acceuil['acceuil']);?>
 	</div>
@@ -45,12 +46,12 @@ $contact=yaml_parse($contact);
 		<?php echo nl2br($propos['propos']);?>
 	</div>
 
-	<div id="compétences">
-		<?php echo nl2br($compétences['compétences']);?>
+	<div id="competences">
+		<?php echo nl2br($competences['competences']);?>
 	</div>
 
-	<div id="expérience">
-		<?php echo nl2br($expériences['expérience']);?>
+	<div id="experience">
+		<?php echo nl2br($experiences['experience']);?>
 	</div>
 
 	<div id="formation">
