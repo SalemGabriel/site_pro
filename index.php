@@ -35,7 +35,7 @@ $contact=yaml_parse($contact);
 	</nav>
 	
 	<div id="accueil">
-		<?php echo nl2br($acceuil['acceuil']);?>
+		<?php echo $acceuil;?>
 	</div>
 
 	<div id="propos">
