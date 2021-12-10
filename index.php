@@ -1,21 +1,10 @@
 <?php
-$acceuil=\file_get_contents("yaml/accueil.yaml");
-$acceuil=yaml_parse($acceuil);
-
-$propos=\file_get_contents("yaml/propos.yaml");
-$propos=yaml_parse($propos);
-
-$competences=\file_get_contents("yaml/competences.yaml");
-$competences=yaml_parse($competences);
-
-$experiences=\file_get_contents("yaml/experiences.yaml");
-$experiences=yaml_parse($experiences);
-
-$formation=\file_get_contents("yaml/formation.yaml");
-$formation=yaml_parse($formation);
-
-$contact=\file_get_contents("yaml/contact.yaml");
-$contact=yaml_parse($contact);
+include("PHP/accueil.php");
+include("PHP/propos.php");
+include("PHP/competences.php");
+include("PHP/experience.php");
+include("PHP/formation.php");
+include("PHP/contact.php");
 ?> 
 <!DOCTYPE html>
 <html>
@@ -47,11 +36,11 @@ $contact=yaml_parse($contact);
 	</div>
 
 	<div id="competences">
-		<?php echo nl2br($competences['competences']);?>
+		<?php echo nl2br($competence['competences']);?>
 	</div>
 
 	<div id="experience">
-		<?php echo nl2br($experiences['experience']);?>
+		<?php echo nl2br($experience['experience']);?>
 	</div>
 
 	<div id="formation">
