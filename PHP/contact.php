@@ -1,3 +1,4 @@
 <?php
-$contact=yaml_parse_file("yaml/contact.yaml");
+$data=yaml_parse_file("yaml/contact.yaml");
+echo $data["contact"];
 ?>

@@ -1,3 +1,4 @@
 <?php
-$experience=yaml_parse_file("yaml/experiences.yaml");
+$data=yaml_parse_file("yaml/experiences.yaml");
+echo $data["experience"];
 ?>

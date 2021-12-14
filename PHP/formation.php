@@ -1,3 +1,4 @@
 <?php
-$formation=yaml_parse_file("yaml/formation.yaml");
+$data=yaml_parse_file("yaml/formation.yaml");
+echo $data["formation"];
 ?>
