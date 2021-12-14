@@ -26,13 +26,13 @@ nav{
 	text-transform: uppercase;
 }
 
-.lien:hover{
+.lien:focus{
 	display:overline block;
     border-top:6px solid white;
     padding-top:2px;
 }
 
-.lien:focus{
+.lien:hover{
 	color: #80aaff;
 	font-weight: 900;
 	display:overline block;

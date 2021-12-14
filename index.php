@@ -1,5 +1,6 @@
 <?php
-
+$robert=file_get_contents("yaml/menu.yaml");
+$data=yaml_parse($robert);
 ?> 
 <!DOCTYPE html>
 <html>
@@ -20,12 +21,18 @@
 	</nav>
 -->
 
-<?php include("PHP/menu.php"); ?>
-<?php foreach ($data as $cle => $valeur) {
-	echo "<div><section id="$data">";
-	include("php/"$nav".php");
+<?php include("PHP/menu.php");
+?>
+<?php
+
+
+foreach($data as $cle => $val){
+	echo "<div><section id='$cle'>";
+	include("PHP/$cle.php");
 	echo "</section></div>";
-} ?>
+} 
+
+?>
 	
 </body>
 </html>
