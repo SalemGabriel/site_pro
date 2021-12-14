@@ -47,3 +47,8 @@ section:not(:target){
 section:target{
 	display: block;
 }
+
+.texte{
+	display: flex;
+	align-self: center;
+}
