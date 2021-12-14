@@ -24,8 +24,8 @@ $data=yaml_parse($robert);
 <?php include("PHP/menu.php");
 
 foreach($data as $cle => $val){
-	echo '<div><section id="#$cle">';
-	include("PHP/'.$cle.'.php");
+	echo '<div><section id="'.$cle.'">';
+	include('PHP/'$cle'.php');
 	echo "</section></div>";
 } 
 
