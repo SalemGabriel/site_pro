@@ -51,4 +51,5 @@ section:target{
 .text{
 	display: flex;
 	align-self: center;
+	color: red;
 }
