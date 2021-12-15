@@ -26,7 +26,7 @@ $data=yaml_parse($robert);
 foreach($data as $cle => $val){
 	echo '<div class="text"><section id='.$cle.'>';
 	include("PHP/".$cle.".php");
-	echo "</section></div>";
+	echo '</section></div>';
 } 
 
 ?>
