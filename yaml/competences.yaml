@@ -1,6 +1,5 @@
 ---
-competences: |
-    Sens de l'organisation
-    Capacités d'animation
-    Sérieux
-    travailleur
+orga: Sens de l'organisation
+anim: Capacités d'animation
+ser: Sérieux
+trav: travailleur
