@@ -1,11 +1,11 @@
 <?php
-$data=yaml_parse_file("yaml/experiences.yaml");
+$exp=yaml_parse_file("yaml/experiences.yaml");
 
 foreach($data as $experience){
     echo "<div>".$experience['experience']."<div>";
-    foreach($experience['missions'] as $cle => $valeur){
+    foreach($data as $experience => $missions){
         echo '<ul>';
-        echo '<li>'.$valeur.'</li>';
+        echo '<li>'.$missions.'</li>';
         echo '</ul>';
     }
 }
