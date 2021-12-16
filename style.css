@@ -58,7 +58,17 @@ section:target{
 
 footer{
 	display: flex;
-	align-content: flex-end;
-	height: 80px;
+	flex-wrap: wrap;
+	height: 60px;
 	background-color: #99bbff;
+	justify-content: center;
+}
+
+footer p{
+	display: flex;
+	align-content: center;
+	padding-left: 30px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: "Arial Black";
 }

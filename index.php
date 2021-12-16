@@ -39,7 +39,7 @@ foreach($data as $cle => $val){
 	
 </body>
 <footer>
-	test
+	<p>test</p>
 </footer>
 </html>
 
