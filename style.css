@@ -58,7 +58,7 @@ section:target{
 
 footer{
 	display: flex;
-	align-content: end;
+	align-content: flex-end;
 	height: 80px;
 	background-color: #99bbff;
 }
