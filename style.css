@@ -40,6 +40,10 @@ nav{
     padding-top:2px;
 }
 
+#accueil{
+	display: block;
+}
+
 section:not(:target){
 	display: none;
 }

@@ -23,12 +23,6 @@ $data=yaml_parse($robert);
 
 <?php include("PHP/menu.php");
 
-if($data == null){
-	echo '<div class="text"><section id=#acceuil>';
-		include("PHP/accueil.php");
-		echo '</section></div>';
-}
-
 foreach($data as $cle => $val){
 	if($cle == "experience"){
 		echo '<div class="expsec"><section id='.$cle.'>';
