@@ -55,3 +55,8 @@ section:target{
 .expsec{
 	padding-left: 10%;
 }
+
+footer{
+	flex: 0;
+
+}

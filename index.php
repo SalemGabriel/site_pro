@@ -38,6 +38,9 @@ foreach($data as $cle => $val){
 ?>
 	
 </body>
+<footer>
+
+</footer>
 </html>
 
 <?php
