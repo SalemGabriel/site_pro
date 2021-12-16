@@ -57,6 +57,7 @@ section:target{
 }
 
 footer{
-	flex: 0;
-
+	display: flex;
+	background-color: #99bbff;
+	height: 20px;
 }
