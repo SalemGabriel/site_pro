@@ -7,7 +7,7 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	height: 80px;
-	background-color: #99bbff;
+	background-color: #6995ee;
 }
 
 .espaceheader{
@@ -59,16 +59,17 @@ section:target{
 footer{
 	display: flex;
 	flex-wrap: wrap;
-	height: 60px;
-	background-color: #99bbff;
 	justify-content: center;
+	align-content: flex-end;
+	height: 60px;
+	background-color: #6487cc;
 }
 
 footer p{
 	display: flex;
 	align-content: center;
 	padding-left: 30px;
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 15px;
 	font-family: "Arial Black";
 }

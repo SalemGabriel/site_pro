@@ -36,11 +36,11 @@ foreach($data as $cle => $val){
 } 
 
 ?>
-	
+	<footer>
+		<p>test</p>
+	</footer>
 </body>
-<footer>
-	<p>test</p>
-</footer>
+
 </html>
 
 <?php
