@@ -25,6 +25,7 @@ $data=yaml_parse($robert);
 
 foreach($data as $cle => $val){
 	if($cle == "experience"){
+		echo '<h1 class="center">Mes expériences</h1>';
 		echo '<div class="expsec"><section id='.$cle.'>';
 		include("PHP/".$cle.".php");
 		echo '</section></div>';
