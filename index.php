@@ -37,7 +37,7 @@ foreach($data as $cle => $val){
 
 ?>
 	<footer>
-		<p>test</p>
+		<p>Tout droit réservé au créateur du site ©</p>
 	</footer>
 </body>
 
