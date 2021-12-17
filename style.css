@@ -66,6 +66,7 @@ footer{
 	bottom: 0;
 	height: 60px;
 	background-color: #6487cc;
+	box-shadow: 0px -15px 35px 0px rgba(77, 104, 192, 0.66);
 }
 
 footer p{
