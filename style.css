@@ -60,6 +60,10 @@ section:target{
 	font-size: 17px;
 }
 
+.expsec h1{
+	font-size: 20px;
+}
+
 footer{
 	display: flex;
 	justify-content: center;
