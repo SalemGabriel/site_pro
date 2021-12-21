@@ -26,7 +26,7 @@ foreach($data as $cle => $val){
 } 
 
 ?>
-	<footer class="footer">
+	<footer>
 		<p>Tout droit réservé au créateur du site ©</p>
 	</footer>
 </body>

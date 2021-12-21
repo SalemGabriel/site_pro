@@ -65,7 +65,7 @@ section:target{
 	text-align: center;
 }
 
-.footer{
+footer{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
