@@ -10,6 +10,7 @@ nav{
 	height: 80px;
 	background-color: #6995ee;
 	box-shadow: 0px 15px 35px 0px rgba(77, 104, 192, 0.66);
+	align-items: flex-start;
 }
 
 .espaceheader{
