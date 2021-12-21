@@ -68,6 +68,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	position: relative;
 	background-color: #6487cc;
 	box-shadow: 0px -15px 35px 0px rgba(77, 104, 192, 0.66);
 }
