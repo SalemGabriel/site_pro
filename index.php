@@ -10,16 +10,6 @@ $data=yaml_parse($robert);
 	<link rel='stylesheet' href='style.css'>
 </head>
 <body>
-	<!--
-	<nav class="espaceheader">
-		<a class="lien" href="#accueil">accueil</a>
-		<a class="lien" href="#propos">à propos</a>
-		<a class="lien" href="#compétences">compétences</a>
-		<a class="lien" href="#expérience">expérience</a>
-		<a class="lien" href="#formation">formation</a>
-		<a class="lien" href="#contact">contact</a>
-	</nav>
--->
 
 <?php include("PHP/menu.php");
 
@@ -36,7 +26,7 @@ foreach($data as $cle => $val){
 } 
 
 ?>
-	<footer>
+	<footer class="footer">
 		<p>Tout droit réservé au créateur du site ©</p>
 	</footer>
 </body>

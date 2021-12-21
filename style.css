@@ -64,10 +64,9 @@ section:target{
 	text-align: center;
 }
 
-footer{
+.footer{
 	display: flex;
 	justify-content: center;
-	min-height: 7em;
 	flex-direction: column;
 	background-color: #6487cc;
 	box-shadow: 0px -15px 35px 0px rgba(77, 104, 192, 0.66);
