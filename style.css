@@ -67,7 +67,8 @@ section:target{
 footer{
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	min-height: 100vh;
+	flex-direction: row;
 	background-color: #6487cc;
 	box-shadow: 0px -15px 35px 0px rgba(77, 104, 192, 0.66);
 }
