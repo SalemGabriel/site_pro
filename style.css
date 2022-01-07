@@ -69,13 +69,13 @@ footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	display: flex;
+	justify-content: center;
 	background-color: #6487cc;
 	box-shadow: 0px -15px 35px 0px rgba(77, 104, 192, 0.66);
 }
 
 footer p{
-	display: flex;
-	align-content: center;
 	color: #ffffff;
 	font-size: 15px;
 	font-family: "Arial Black";
