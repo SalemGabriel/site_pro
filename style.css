@@ -66,8 +66,8 @@ section:target{
 }
 
 footer{
-	display: flex;
-	justify-content: flex-end;
+	position: fixed;
+	bottom: 0;
 	background-color: #6487cc;
 	box-shadow: 0px -15px 35px 0px rgba(77, 104, 192, 0.66);
 }
